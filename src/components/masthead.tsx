@@ -5,6 +5,7 @@ const links = [
   { href: "#story", label: "The story" },
   { href: "#numbers", label: "The numbers" },
   { href: "#tape", label: "Timeline" },
+  { href: "#brief", label: "The Brief" },
   { href: "/paper.html", label: "Archive" },
 ];
 
@@ -22,7 +23,7 @@ export function Masthead() {
         </a>
         <nav
           aria-label="Sections"
-          className="hidden items-center gap-5 md:flex"
+          className="hidden items-center gap-5 lg:flex"
         >
           {links.map((l) => (
             <a

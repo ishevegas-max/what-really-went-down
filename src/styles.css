@@ -12,10 +12,22 @@
   --color-pass: #35563f;
   --color-hold: #8f3a30;
 
+  --color-brief: #0c1218;
+  --color-brief-surface: #151c24;
+  --color-brief-surface-2: #1c252f;
+  --color-brief-fg: #ece7dc;
+  --color-brief-muted: #8b96a1;
+  --color-brief-subtle: #6b7680;
+  --color-brief-primary: #c5cdd6;
+  --color-brief-primary-fg: #0c1218;
+  --color-brief-border: #2a343d;
+
   --font-display: "Newsreader", "Source Serif 4", Georgia, serif;
   --font-body: "Source Serif 4", Georgia, serif;
   --font-ui: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-brief: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-brief-display: "Fraunces", ui-serif, Georgia, serif;
 
   --radius-xs: 4px;
   --radius-sm: 8px;

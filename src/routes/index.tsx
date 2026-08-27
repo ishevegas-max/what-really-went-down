@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Brief } from "@/components/brief";
 import { ClipReel } from "@/components/clip-reel";
 import { Hero } from "@/components/hero";
 import { Masthead } from "@/components/masthead";
@@ -17,6 +18,7 @@ function Home() {
       <Story />
       <Numbers />
       <Timeline />
+      <Brief />
       <footer className="bg-ink px-5 py-8 text-on-crimson/70 sm:px-8">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-display text-lg text-on-crimson">SheVegas</p>
