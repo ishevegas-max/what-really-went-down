@@ -1,3 +1,4 @@
+import { MEDIA } from "@/lib/media";
 import { Tape } from "@/components/tape";
 
 export function Story() {
@@ -41,8 +42,8 @@ export function Story() {
 
             <Tape
               className="my-10"
-              src="/video/rocks.mp4"
-              poster="/images/rocks.jpg"
+              src={`${MEDIA}/video/rocks.mp4`}
+              poster={`${MEDIA}/images/rocks.jpg`}
               caption="Harbor rocks. Unmute for the walk."
             />
 
@@ -121,7 +122,7 @@ export function Story() {
 
             <figure className="my-10">
               <img
-                src="/images/path.jpg"
+                src={`${MEDIA}/images/path.jpg`}
                 alt="Cracked paved path with a fallen scooter"
                 className="max-h-[32rem] w-full rounded-lg object-cover object-bottom"
               />
@@ -214,7 +215,7 @@ export function Story() {
 
         <figure className="mx-auto mt-6 max-w-4xl">
           <img
-            src="/images/weill.jpg"
+            src={`${MEDIA}/images/weill.jpg`}
             alt="Weill Center doors with posters for The Book of Mormon and Dolly Parton’s Smoky Mountain Christmas Carol"
             className="w-full rounded-lg object-cover"
           />
@@ -248,8 +249,8 @@ export function Story() {
 
           <Tape
             className="my-10"
-            src="/video/swing.mp4"
-            poster="/images/swing.jpg"
+            src={`${MEDIA}/video/swing.mp4`}
+            poster={`${MEDIA}/images/swing.jpg`}
             caption="Downtown playground. Unmute if you want the room tone."
           />
 
@@ -276,7 +277,7 @@ export function Story() {
 
           <figure className="my-10">
             <img
-              src="/images/marina.jpg"
+              src={`${MEDIA}/images/marina.jpg`}
               alt="Sheboygan marina behind the harbor breakwater"
               className="w-full rounded-lg object-cover"
             />

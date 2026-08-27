@@ -1,4 +1,5 @@
 import { MEETING_CLOCK, MEETING_DATE, MEETING_PLACE } from "@/lib/meeting";
+import { MEDIA } from "@/lib/media";
 
 export function Hero() {
   return (
@@ -9,13 +10,13 @@ export function Hero() {
         muted
         loop
         playsInline
-        poster="/images/swing.jpg"
+        poster={`${MEDIA}/images/swing.jpg`}
         aria-hidden="true"
       >
-        <source src="/video/swing.mp4" type="video/mp4" />
+        <source src={`${MEDIA}/video/swing.mp4`} type="video/mp4" />
       </video>
       <img
-        src="/images/swing.jpg"
+        src={`${MEDIA}/images/swing.jpg`}
         alt=""
         className="absolute inset-0 hidden size-full object-cover opacity-80 motion-reduce:block"
       />

@@ -8,7 +8,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "The Record";
+const APP_NAME = "SheVegas";
 const APP_DESC =
   "What really went down at the Sheboygan Plan Commission on August 26, 2026.";
 

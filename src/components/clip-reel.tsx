@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ExternalLink, Pause, Play } from "lucide-react";
 import { clips } from "@/lib/meeting";
+import { MEDIA } from "@/lib/media";
 import { cn, youtubeEmbed, youtubeUrl } from "@/lib/utils";
 
 const DWELL_MS = 10000;
@@ -61,7 +62,7 @@ export function ClipReel() {
                   aria-label={`Play meeting footage for ${clip.title}`}
                 >
                   <img
-                    src="/images/weill.jpg"
+                    src={`${MEDIA}/images/weill.jpg`}
                     alt=""
                     className="size-full object-cover opacity-70 transition-opacity duration-250 group-hover:opacity-85"
                   />
